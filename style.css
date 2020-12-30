@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 42px;
+    color: #2F323A;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #6F6F6F;
+}
+
+
+/* ==========HEADER AREA START========== */
+
+header {
+    background-color: black;
+}
+
+header nav {
+    padding: 30px 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* ===========HEADER AREA END============ */
+
+
+/* ===========NEWSLETTER AREA START========== */
+
+.newsletter {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.newsletter form .input-1 {
+    width: 30%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.newsletter form .submit-btn {
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    background-color: yellowgreen;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* ===========NEWSLETTER AREA START========== */
+
+
+/* ===========CONTACT FORM AREA START=========== */
+
+.contact-area {
+    background-color: #eee;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact-area form {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-area form .input-2 {
+    width: 48%;
+    padding: 15px;
+    margin: 0 2% 18px 0;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact-area form .input-3 {
+    width: 48%;
+    padding: 15px;
+    margin: 0 0 18px 0;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact-area form textarea {
+    width: 98%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-area form .submit-btn {
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    background-color: yellowgreen;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* ===========CONTACT FORM AREA END========== */
